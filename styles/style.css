@@ -1,0 +1,130 @@
+
+/* utility */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root{
+    --primary-color: #424242;
+    --secondary-color: #727272;
+}
+h1{
+    font-size: 2.5rem;
+    color:  #131313;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-size: 2rem;
+    color:  #131313;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-size: 1rem;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.primary-btn{
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 10px #727272;
+}
+
+.primary-btn:hover{
+    color: #131313;
+    background-color: #07b8ee;
+    box-shadow: 1px 1px 10px rgb(44, 42, 42);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    scroll-behavior: smooth;
+    max-width: 1400px;
+}
+
+
+/* header section */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 2.5rem 10rem;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+ul> li a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.banner-title{
+    mar-width: 43rem;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.banner-title-name{
+    margin-bottom: 1rem;
+}
+.banner-title-disc{
+    margin-bottom: 2rem;
+}
+.banner-title-banner{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgb(1, 162, 255),
+                -4px -4px 10px rgb(1, 162, 255)
+
+}
+
+/* header section */
+
+
+/* quick-list section */
+
+
+/* quick-list section */
+
+
+
+
+/* media-query */
+
+@media screen and (max-with: 576px) {
+    header{
+        padding:0;
+    }
+     
+}
